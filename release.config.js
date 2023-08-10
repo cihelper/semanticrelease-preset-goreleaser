@@ -35,7 +35,7 @@ const config = {
         publishCmd: [
           "export GORELEASER_CURRENT_TAG=${nextRelease.gitTag}",
           "export GORELEASER_PREVIOUS_TAG=${lastRelease.gitTag}",
-          "echo ${nextRelease.notes} > /tmp/release-notes.md",
+          "echo '${nextRelease.notes}' > /tmp/release-notes.md",
           "goreleaser release --release-notes /tmp/release-notes.md --clean",
         ].join(" && "),
       },
