@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.1...v1.0.2) (2023-08-10)
+
+
+### Bug Fixes
+
+* build artifacts during prepare step ([1bc5f48](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/1bc5f4843281c6a1c4eec83d2f2ef3f1d8be90f6))
+
 ## [1.0.1](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.0...v1.0.1) (2023-08-10)
 
 
