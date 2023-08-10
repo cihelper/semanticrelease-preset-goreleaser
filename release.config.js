@@ -32,12 +32,13 @@ const config = {
       // replaces the github plugin
       "@semantic-release/exec",
       {
+        prepareCmd: "goreleaser build --clean",
         publishCmd: [
           "export GORELEASER_CURRENT_TAG=${nextRelease.gitTag}",
           "export GORELEASER_PREVIOUS_TAG=${lastRelease.gitTag}",
           "echo '${nextRelease.notes}' > /tmp/release-notes.md",
-          "goreleaser release --release-notes /tmp/release-notes.md --clean",
-        ].join(" && "),
+          "goreleaser release --release-notes /tmp/release-notes.md",
+        ].join("\n"),
       },
     ],
     [
