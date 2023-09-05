@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.3...v1.0.4) (2023-09-05)
+
+
+### Bug Fixes
+
+* update goreleaser script ([51343a0](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/51343a0b604db7a45196074c58ba430d67292707))
+
 ## [1.0.3](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.2...v1.0.3) (2023-09-05)
 
 
