@@ -32,7 +32,7 @@ const config = {
       // replaces the github plugin
       "@semantic-release/exec",
       {
-        prepareCmd: "goreleaser build --clean",
+        prepareCmd: "goreleaser build --clean --skip-validate",
         publishCmd: [
           "export GORELEASER_CURRENT_TAG=${nextRelease.gitTag}",
           "export GORELEASER_PREVIOUS_TAG=${lastRelease.gitTag}",
