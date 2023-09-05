@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.2...v1.0.3) (2023-09-05)
+
+
+### Bug Fixes
+
+* skip validations for goreleaser build ([5d20e18](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/5d20e185b26e55a4bf8dd3be50ca055e2b678012))
+
 ## [1.0.2](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.1...v1.0.2) (2023-08-10)
 
 
