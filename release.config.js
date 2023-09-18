@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   // https://semantic-release.gitbook.io/semantic-release/usage/workflow-configuration
   branches: [
     { name: "main" },
