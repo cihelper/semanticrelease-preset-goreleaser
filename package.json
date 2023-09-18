@@ -1,6 +1,6 @@
 {
   "name": "@cihelper/semanticrelease-preset-goreleaser",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Semantic Release configuration for Go projects using Goreleaser",
   "type": "commonjs",
   "main": "release.config.js",

@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.4...v1.1.0) (2023-09-18)
+
+
+### Features
+
+* switch to es module ([8dd5987](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/8dd5987c4790ae0ef514fe9234d9ab9258749e6d))
+
+
+### Bug Fixes
+
+* bump deps ([6ec01a1](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/6ec01a108b96fc7525dcb1a34725435d1101f4ec))
+* switch to commonjs module again ([871c2b9](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/871c2b9c4bde9f13a0fe9fd88ca96416dfb15ac2))
+
 ## [1.0.4](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.0.3...v1.0.4) (2023-09-05)
 
 
