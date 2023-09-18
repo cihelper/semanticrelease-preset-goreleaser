@@ -2,6 +2,7 @@
   "name": "@cihelper/semanticrelease-preset-goreleaser",
   "version": "1.0.4",
   "description": "Semantic Release configuration for Go projects using Goreleaser",
+  "type": "module",
   "main": "release.config.js",
   "files": [
     "release.config.js"
