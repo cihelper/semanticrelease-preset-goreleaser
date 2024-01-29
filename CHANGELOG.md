@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.2...v1.1.3) (2024-01-29)
+
+
+### Bug Fixes
+
+* **deps:** bump to semantic-release v23 and move config ([0bb41f8](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/0bb41f81517b9de898f4fed4b33dc6efadb08849))
+
 ## [1.1.2](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.1...v1.1.2) (2023-09-23)
 
 
