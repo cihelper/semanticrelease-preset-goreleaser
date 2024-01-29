@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "description": "Semantic Release configuration for Go projects using Goreleaser",
   "type": "commonjs",
-  "main": ".config/release.config.js",
+  "main": ".releaserc.js",
   "files": [
-    ".config/release.config.js"
+    ".releaserc.js"
   ],
   "repository": {
     "type": "git",
