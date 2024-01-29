@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.3...v1.1.4) (2024-01-29)
+
+
+### Bug Fixes
+
+* correctly export new config location ([08d50eb](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/08d50eba2e13408002fc2c17a06965476b432dcc))
+
 ## [1.1.3](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.2...v1.1.3) (2024-01-29)
 
 
