@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.5](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.4...v1.1.5) (2024-01-29)
+
+
+### Bug Fixes
+
+* adjust module export for .releaserc.js ([0513bbf](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/0513bbfb178a10ca097f287f4ae323a160102a18))
+* move release.config.js to .releaserc.js ([7cc4353](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/7cc4353159fa252329fc495d3559748f90cf04d2))
+
 ## [1.1.4](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.3...v1.1.4) (2024-01-29)
 
 
