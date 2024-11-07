@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.5...v1.2.0) (2024-11-07)
+
+
+### Features
+
+* **deps:** bump semantic-release to v24 ([a7421d3](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/a7421d39d8a873a046d6b4c61df7ccb5bfa2d8b2))
+
 ## [1.1.5](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.4...v1.1.5) (2024-01-29)
 
 
