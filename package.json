@@ -27,8 +27,8 @@
     "@semantic-release/changelog": "^6",
     "@semantic-release/exec": "^6",
     "@semantic-release/git": "^10",
-    "semantic-release": "^23",
-    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "semantic-release": "^24",
+    "conventional-changelog-conventionalcommits": "^8",
     "semantic-release-major-tag": "^0.3"
   },
   "devDependencies": {
