@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.2.0...v1.3.0) (2025-02-02)
+
+
+### Features
+
+* add keyword `notable change` to release notes generator ([7140800](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/7140800e1e2d30bef9be4d54d3178662fdb87e82))
+
 ## [1.2.0](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.1.5...v1.2.0) (2024-11-07)
 
 
