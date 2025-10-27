@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.3.0...v1.3.1) (2025-10-27)
+
+### Bug Fixes
+
+* trigger release ([dfd5c5c](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/dfd5c5cf325fda0df1193221327d8fcaa0f7a06b))
+* update deps ([76594dd](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/76594dd51eb0c79057202c8e5843758de0d210d5))
+
 ## [1.3.0](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.2.0...v1.3.0) (2025-02-02)
 
 
