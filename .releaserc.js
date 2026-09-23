@@ -45,10 +45,14 @@ module.exports = {
       {
         prepareCmd: "goreleaser build --clean --snapshot",
         publishCmd: [
-          "export GORELEASER_CURRENT_TAG=${nextRelease.gitTag}",
-          "export GORELEASER_PREVIOUS_TAG=${lastRelease.gitTag}",
-          "echo '${nextRelease.notes}' > /tmp/release-notes.md",
-          "goreleaser release --clean --release-notes /tmp/release-notes.md",
+          "set -eu",
+          'notes="$(mktemp)"',
+          "cat > \"$notes\" <<'CIHELPER_SEMANTIC_RELEASE_NOTES'",
+          "${nextRelease.notes}",
+          "CIHELPER_SEMANTIC_RELEASE_NOTES",
+          'GORELEASER_CURRENT_TAG="${nextRelease.gitTag}" \\',
+          'GORELEASER_PREVIOUS_TAG="${lastRelease.gitTag}" \\',
+          'goreleaser release --clean --release-notes "$notes"',
         ].join("\n"),
       },
     ],
