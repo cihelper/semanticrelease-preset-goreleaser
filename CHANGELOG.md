@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.3](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.3.2...v1.3.3) (2026-09-23)
+
+### Bug Fixes
+
+* **deps:** pin conventional commits v9 ([5cd31ad](https://github.com/cihelper/semanticrelease-preset-goreleaser/commit/5cd31ada11a3a29790e1416149c5f6ae44dbde7b))
+
 ## [1.3.2](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.3.1...v1.3.2) (2026-09-23)
 
 ## [1.3.1](https://github.com/cihelper/semanticrelease-preset-goreleaser/compare/v1.3.0...v1.3.1) (2025-10-27)
