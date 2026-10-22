@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/cihelper/semanticrelease-preset-goreleaser#README",
   "dependencies": {
-    "@semantic-release/changelog": "^6",
+    "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/exec": "^7.0.0",
-    "@semantic-release/git": "^10",
+    "@semantic-release/git": "^11.0.0",
     "semantic-release": "^25.0.0",
     "conventional-changelog-conventionalcommits": "^9",
     "semantic-release-major-tag": "^0.3"
